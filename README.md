@@ -1,4 +1,4 @@
-﻿## DEMOSTRACIÓN DE TELEDETECCIÓN CON APRENDIZAJE NO SUPERVISADO DE VARIACIONES EN LA CALIDAD DEL AGUA
+﻿## EJEMPLO DE TELEDETECCIÓN Y APRENDIZAJE NO SUPERVISADO APLICADOS A DETECTAR VARIACIONES EN LA CALIDAD DEL AGUA DE UN EMBALSE
 
 Sobre una escenas de Landsat8 correspondiente al entorno del embalse de la Cuerda del Pozo (España) con este lleno, se usan las 7 primeras bandas monoespectrales de su sensor óptico y el algoritmo k-means para obtener en primer lugar los diferentes usos del suelo. A continuación se crea una máscara, que georeferenciada se convierte en un shapefile de ESRI. Este shape se retoca manualmente con QGIS para después, sobre otras 3 escenas más, con esas mismas bandas monoespectrales, se aplica la máscara para recortar el contorno de la lámina de agua.
 
